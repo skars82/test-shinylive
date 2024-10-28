@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ssb-quarto-shinylive"
+version = "0.1.0"
+description = ""
+authors = ["Øyvind Bruer-Skarsbø <obr@ssb.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+shinylive = "^0.6.0"
+pandas = "^2.2.3"
+itables = "^2.2.2"
+jupyter = "^1.1.1"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
